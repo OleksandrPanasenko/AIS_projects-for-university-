@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-10T08:19:42.598Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="5fwIy_iqydtpGIPrKvhi" version="24.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-10T08:35:35.050Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="JyJ4dI-5DKvUBK8lnZP8" version="24.2.3" type="github">
   <diagram name="Сторінка-1" id="4NnscdOud7t3WqkIFgde">
-    <mxGraphModel dx="3500" dy="1767" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1235" dy="624" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -216,6 +216,11 @@
         <mxCell id="siiqOLJonYB3vmnRVIAc-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="siiqOLJonYB3vmnRVIAc-22" source="EZjnUPANlJix_Xs9OcvV-4" target="EZjnUPANlJix_Xs9OcvV-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="siiqOLJonYB3vmnRVIAc-141" value="[натиснути редагування]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="siiqOLJonYB3vmnRVIAc-104">
+          <mxGeometry x="-0.1479" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="EZjnUPANlJix_Xs9OcvV-4" value="Перегляд особистих даних" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;fontColor=#000000;collapsible=0;rounded=1;arcSize=30;strokeColor=#ff0000;fillColor=#ffffc0;swimlaneFillColor=#ffffc0;dropTarget=0;" parent="siiqOLJonYB3vmnRVIAc-22" vertex="1">
           <mxGeometry y="50" width="200" height="90" as="geometry" />
         </mxCell>
@@ -223,7 +228,7 @@
           <mxGeometry y="30" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EZjnUPANlJix_Xs9OcvV-6" value="Редагування профілю" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;fontColor=#000000;collapsible=0;rounded=1;arcSize=30;strokeColor=#ff0000;fillColor=#ffffc0;swimlaneFillColor=#ffffc0;dropTarget=0;" parent="siiqOLJonYB3vmnRVIAc-22" vertex="1">
-          <mxGeometry x="210" y="40" width="205" height="110" as="geometry" />
+          <mxGeometry x="410" y="40" width="205" height="110" as="geometry" />
         </mxCell>
         <mxCell id="EZjnUPANlJix_Xs9OcvV-7" value="do/^Профіль.редагувати_ім&#39;я&lt;div&gt;do/^Профіль.редагувати_ID&lt;br&gt;&lt;div&gt;do/^Профіль.редагувати_навички&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;fontColor=#000000;" parent="EZjnUPANlJix_Xs9OcvV-6" vertex="1">
           <mxGeometry y="30" width="205" height="80" as="geometry" />
@@ -381,22 +386,19 @@
         <mxCell id="EZjnUPANlJix_Xs9OcvV-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="siiqOLJonYB3vmnRVIAc-22" source="EZjnUPANlJix_Xs9OcvV-25" target="EZjnUPANlJix_Xs9OcvV-56" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="siiqOLJonYB3vmnRVIAc-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="siiqOLJonYB3vmnRVIAc-22" source="siiqOLJonYB3vmnRVIAc-19" target="EZjnUPANlJix_Xs9OcvV-4">
+        <mxCell id="siiqOLJonYB3vmnRVIAc-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="siiqOLJonYB3vmnRVIAc-22" source="EZjnUPANlJix_Xs9OcvV-6" target="EZjnUPANlJix_Xs9OcvV-4">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580.0434782608697" y="50" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="580" y="20" />
+              <mxPoint x="480" y="20" />
               <mxPoint x="100" y="20" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="siiqOLJonYB3vmnRVIAc-19" value="Запит на редагування" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;fontColor=#000000;collapsible=0;rounded=1;arcSize=30;strokeColor=#ff0000;fillColor=#ffffc0;swimlaneFillColor=#ffffc0;dropTarget=0;" vertex="1" parent="siiqOLJonYB3vmnRVIAc-22">
-          <mxGeometry x="430" y="50" width="300" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="siiqOLJonYB3vmnRVIAc-20" value="do/^Профіль.Менеджер.додати_запит_редагування" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;fontColor=#000000;" vertex="1" parent="siiqOLJonYB3vmnRVIAc-19">
-          <mxGeometry y="30" width="300" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="siiqOLJonYB3vmnRVIAc-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="siiqOLJonYB3vmnRVIAc-22" source="EZjnUPANlJix_Xs9OcvV-7" target="siiqOLJonYB3vmnRVIAc-19">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="siiqOLJonYB3vmnRVIAc-140" value="&lt;span style=&quot;font-size: 12px; text-wrap: wrap; background-color: rgb(251, 251, 251);&quot;&gt;exit/^Профіль.Менеджер.додати_запит_редагування&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="siiqOLJonYB3vmnRVIAc-105">
+          <mxGeometry x="-0.8761" y="1" relative="1" as="geometry">
+            <mxPoint x="-173" y="-11" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="siiqOLJonYB3vmnRVIAc-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="siiqOLJonYB3vmnRVIAc-22" source="EZjnUPANlJix_Xs9OcvV-5" target="ysQvWt2n_lniXi2UkVhW-10">
           <mxGeometry relative="1" as="geometry">
