@@ -1,9 +1,181 @@
-<mxfile host="app.diagrams.net" modified="2024-05-08T00:19:27.592Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" version="24.3.1" etag="3zaPdcqqrgRSsMcwocov" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-08T00:45:40.117Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="qNlIxu6YQpyIIYeKsNSM" version="24.3.1" type="github">
   <diagram name="Сторінка-1" id="mzhUtcXBtSJSnnUb05UE">
-    <mxGraphModel>
+    <mxGraphModel dx="1167" dy="589" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="MCVJK2WzJTauj64T1BzB-1" value=":Працівник" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="80" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MCVJK2WzJTauj64T1BzB-4" value="Перегляд Профілю" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="330" y="90" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MCVJK2WzJTauj64T1BzB-5" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1" source="MCVJK2WzJTauj64T1BzB-22" target="MCVJK2WzJTauj64T1BzB-23">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="290" y="310" as="sourcePoint" />
+            <mxPoint x="450" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MCVJK2WzJTauj64T1BzB-25" value="7. Позначення&amp;nbsp;&lt;div&gt;виконаним&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MCVJK2WzJTauj64T1BzB-5">
+          <mxGeometry x="0.3534" relative="1" as="geometry">
+            <mxPoint x="12" y="-25" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MCVJK2WzJTauj64T1BzB-6" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1" source="MCVJK2WzJTauj64T1BzB-1" target="MCVJK2WzJTauj64T1BzB-4">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="340" y="240" as="sourcePoint" />
+            <mxPoint x="500" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MCVJK2WzJTauj64T1BzB-7" value="1.Вхід (логін-пароль)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MCVJK2WzJTauj64T1BzB-6">
+          <mxGeometry x="-0.4336" y="2" relative="1" as="geometry">
+            <mxPoint x="20" y="-19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MCVJK2WzJTauj64T1BzB-8" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1" source="MCVJK2WzJTauj64T1BzB-4" target="MCVJK2WzJTauj64T1BzB-4">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="340" y="90" as="sourcePoint" />
+            <mxPoint x="500" y="90" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="360" y="20" />
+              <mxPoint x="440" y="20" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MCVJK2WzJTauj64T1BzB-9" value="2. Показ даних" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MCVJK2WzJTauj64T1BzB-8">
+          <mxGeometry x="-0.1241" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MCVJK2WzJTauj64T1BzB-10" value="Перегляд Списку завдань" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="500" y="100" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MCVJK2WzJTauj64T1BzB-11" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1" source="MCVJK2WzJTauj64T1BzB-10" target="MCVJK2WzJTauj64T1BzB-10">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="510" y="100" as="sourcePoint" />
+            <mxPoint x="670" y="100" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="530" y="30" />
+              <mxPoint x="610" y="30" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MCVJK2WzJTauj64T1BzB-12" value="3. Доступ до завдань" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MCVJK2WzJTauj64T1BzB-11">
+          <mxGeometry x="-0.1241" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MCVJK2WzJTauj64T1BzB-13" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1" target="MCVJK2WzJTauj64T1BzB-10">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="440" y="120" as="sourcePoint" />
+            <mxPoint x="600" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MCVJK2WzJTauj64T1BzB-14" value="Перехід до&lt;div&gt;&amp;nbsp;завдань&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MCVJK2WzJTauj64T1BzB-13">
+          <mxGeometry x="-0.4899" y="1" relative="1" as="geometry">
+            <mxPoint x="15" y="-30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MCVJK2WzJTauj64T1BzB-15" value=":Менеджер" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="270" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MCVJK2WzJTauj64T1BzB-16" value="Проект, завдання" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="90" y="180" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MCVJK2WzJTauj64T1BzB-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MCVJK2WzJTauj64T1BzB-16" target="MCVJK2WzJTauj64T1BzB-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="118" y="250" />
+              <mxPoint x="70" y="250" />
+              <mxPoint x="70" y="205" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MCVJK2WzJTauj64T1BzB-18" value="10.Зміна прогресу" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MCVJK2WzJTauj64T1BzB-17">
+          <mxGeometry x="0.1369" y="1" relative="1" as="geometry">
+            <mxPoint x="-9" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MCVJK2WzJTauj64T1BzB-19" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1" source="MCVJK2WzJTauj64T1BzB-15" target="MCVJK2WzJTauj64T1BzB-16">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="300" y="180" as="sourcePoint" />
+            <mxPoint x="460" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MCVJK2WzJTauj64T1BzB-32" value="9. Менеджер узгодив" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MCVJK2WzJTauj64T1BzB-19">
+          <mxGeometry x="-0.0289" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MCVJK2WzJTauj64T1BzB-20" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0.105;exitY=0.049;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="MCVJK2WzJTauj64T1BzB-16" target="MCVJK2WzJTauj64T1BzB-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="176" y="280" as="sourcePoint" />
+            <mxPoint x="163" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MCVJK2WzJTauj64T1BzB-21" value="Відкриття завдання" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="600" y="180" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MCVJK2WzJTauj64T1BzB-22" value="Виконання завдання" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="420" y="230" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MCVJK2WzJTauj64T1BzB-23" value="&lt;span style=&quot;font-size: 11px; text-wrap: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;7.Запит до менеджера&lt;/span&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="240" y="230" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MCVJK2WzJTauj64T1BzB-26" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1" source="MCVJK2WzJTauj64T1BzB-22" target="MCVJK2WzJTauj64T1BzB-22">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="520" y="200" as="sourcePoint" />
+            <mxPoint x="680" y="200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="450" y="320" />
+              <mxPoint x="460" y="350" />
+              <mxPoint x="500" y="360" />
+              <mxPoint x="530" y="340" />
+              <mxPoint x="530" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MCVJK2WzJTauj64T1BzB-27" value="6. Оновлення історії&lt;br&gt;в ході виконання" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MCVJK2WzJTauj64T1BzB-26">
+          <mxGeometry x="-0.2541" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MCVJK2WzJTauj64T1BzB-28" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1" source="MCVJK2WzJTauj64T1BzB-21" target="MCVJK2WzJTauj64T1BzB-22">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="620" y="300" as="sourcePoint" />
+            <mxPoint x="780" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MCVJK2WzJTauj64T1BzB-29" value="5. Почати&amp;nbsp;&lt;div&gt;виконання&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MCVJK2WzJTauj64T1BzB-28">
+          <mxGeometry x="0.3893" relative="1" as="geometry">
+            <mxPoint x="9" y="-24" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MCVJK2WzJTauj64T1BzB-30" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1" source="MCVJK2WzJTauj64T1BzB-10" target="MCVJK2WzJTauj64T1BzB-21">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="650" y="120" as="sourcePoint" />
+            <mxPoint x="810" y="120" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="660" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MCVJK2WzJTauj64T1BzB-31" value="4. Вибір конкретного завдання" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MCVJK2WzJTauj64T1BzB-30">
+          <mxGeometry x="0.2447" y="1" relative="1" as="geometry">
+            <mxPoint x="50" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MCVJK2WzJTauj64T1BzB-33" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1" source="MCVJK2WzJTauj64T1BzB-23" target="MCVJK2WzJTauj64T1BzB-15">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="220" y="300" as="sourcePoint" />
+            <mxPoint x="380" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MCVJK2WzJTauj64T1BzB-34" value="8. Менеджер реагує" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MCVJK2WzJTauj64T1BzB-33">
+          <mxGeometry x="0.2407" y="2" relative="1" as="geometry">
+            <mxPoint x="50" as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
