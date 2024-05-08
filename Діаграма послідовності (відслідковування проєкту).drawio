@@ -1,9 +1,99 @@
-<mxfile host="app.diagrams.net" modified="2024-05-08T10:02:53.621Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" version="24.3.1" etag="1_WAmgOV2HkXuX8sVos0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-08T11:56:22.793Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="EE2kn9N9gLljVUq7w54d" version="24.3.1" type="github">
   <diagram name="Сторінка-1" id="vCxBy770WnhcdiYoUwmm">
-    <mxGraphModel>
+    <mxGraphModel dx="1000" dy="505" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="e2VwIrGvouIv2VRsyCbl-3" value=":Менеджер" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="90" y="110" width="100" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="e2VwIrGvouIv2VRsyCbl-2" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="e2VwIrGvouIv2VRsyCbl-3">
+          <mxGeometry x="45" y="50" width="10" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="e2VwIrGvouIv2VRsyCbl-4" value=":Проєкт" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="310" y="110" width="100" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="e2VwIrGvouIv2VRsyCbl-5" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="e2VwIrGvouIv2VRsyCbl-4">
+          <mxGeometry x="45" y="50" width="10" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="e2VwIrGvouIv2VRsyCbl-6" value=":Завдання" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="490" y="120" width="100" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="e2VwIrGvouIv2VRsyCbl-7" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="e2VwIrGvouIv2VRsyCbl-6">
+          <mxGeometry x="45" y="50" width="10" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="e2VwIrGvouIv2VRsyCbl-8" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="139.5" y="180" as="sourcePoint" />
+            <mxPoint x="355" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2VwIrGvouIv2VRsyCbl-12" value="Запит на моніторинг {&amp;lt;5 секунд}" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="e2VwIrGvouIv2VRsyCbl-8">
+          <mxGeometry x="-0.3943" relative="1" as="geometry">
+            <mxPoint x="35" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2VwIrGvouIv2VRsyCbl-9" value="Перегляд виконання {&amp;lt;10 секунд}" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="e2VwIrGvouIv2VRsyCbl-4" target="e2VwIrGvouIv2VRsyCbl-6">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="360" y="220" as="sourcePoint" />
+            <mxPoint x="440" y="220" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="450" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2VwIrGvouIv2VRsyCbl-10" value="Повернення статусу/&lt;div&gt;останнього коміту&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="e2VwIrGvouIv2VRsyCbl-6" target="e2VwIrGvouIv2VRsyCbl-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="290" as="sourcePoint" />
+            <mxPoint x="370" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2VwIrGvouIv2VRsyCbl-11" value="Вивід на екран прогресу за&amp;nbsp;&lt;div&gt;проєктом {&amp;lt;30 секунд}&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="e2VwIrGvouIv2VRsyCbl-4" target="e2VwIrGvouIv2VRsyCbl-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="320" as="sourcePoint" />
+            <mxPoint x="220" y="320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="270" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2VwIrGvouIv2VRsyCbl-13" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1" source="e2VwIrGvouIv2VRsyCbl-2" target="e2VwIrGvouIv2VRsyCbl-6">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="180" y="360" as="sourcePoint" />
+            <mxPoint x="340" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="350" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2VwIrGvouIv2VRsyCbl-14" value="Запитати історію&amp;nbsp;&lt;div&gt;комітів{&amp;lt;20 секунд}&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="e2VwIrGvouIv2VRsyCbl-13">
+          <mxGeometry x="0.3052" y="1" relative="1" as="geometry">
+            <mxPoint x="37" y="-19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2VwIrGvouIv2VRsyCbl-15" value="Вивести усі зміни і повідомлення {&amp;lt;40 секунд}" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="e2VwIrGvouIv2VRsyCbl-7" target="e2VwIrGvouIv2VRsyCbl-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="539.5" y="380.0000000000001" as="sourcePoint" />
+            <mxPoint x="145.0000000000001" y="390.0000000000001" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="480" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2VwIrGvouIv2VRsyCbl-16" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1" source="e2VwIrGvouIv2VRsyCbl-3" target="e2VwIrGvouIv2VRsyCbl-4">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="140" y="430" as="sourcePoint" />
+            <mxPoint x="300" y="430" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="220" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2VwIrGvouIv2VRsyCbl-17" value="(За вибором менеджера)&lt;div&gt;Позначити проєкт виконаним&amp;nbsp;&lt;/div&gt;&lt;div&gt;{&amp;lt;15 секунд}&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="e2VwIrGvouIv2VRsyCbl-16">
+          <mxGeometry x="-0.4632" y="2" relative="1" as="geometry">
+            <mxPoint x="52" y="-28" as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
